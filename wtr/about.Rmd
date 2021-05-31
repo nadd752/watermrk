@@ -1,0 +1,26 @@
+---
+title: "About This Website"
+---
+
+Website ini disusun guna memenuhi tugas dari mata kuliah linear algebra. 
+
+# Owner
+Nama    : Nadia Mu'izzatul Ilma
+
+NIM     : 200605110075
+
+Kelas   : Linear Algebra-A
+
+<img src="me.jpeg"
+     alt="Markdown Monster icon"
+     style="float: center; margin-right: 10px;" />
+
+
+# Dosen Pengampu
+Prof. Dr. Suhartono, M.Kom
+
+<img src="Prof Suhartono.jpg"
+     alt="Markdown Monster icon"
+     style="float: center; margin-right: 10px;" />
+
+
