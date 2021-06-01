@@ -1,0 +1,37 @@
+---
+title: "Nad's Website"
+---
+
+Hello ! 
+
+Welcome back to nad's website 
+
+Kali ini kita akan belajar tentang menambahkan watermark pada EBImage dengan Rstudio.
+
+Sebelum itu, what's watermark ?
+
+Watermark adalah sebuah tanda baik berupa tulisan maupun gambar logo yang tertanam pada foto atau gambar digital. Tanda ini biasanya untuk memberikan informasi kepada orang lain bahwa foto tersebut adalah hasil karya miliknya.
+
+Lalu apakah watermark memiliki fungsi ?
+
+Pastinya watermark digunakan karena memiliki beberapa fungsi, diantaranya : 
+
+1. Hak Cipta,
+watermark memiliki fungsi sebagai hak cipta untuk melindungi hasil karya penciptanya agar tidak disalahgunakan oleh orang lain.
+
+2. Identitas,
+fungsi lain dari watermark adalah sebagai identitas sebuah hasil karya untuk memudahkan orang lain mengenalinya. 
+
+3. Promosi,
+watermark juga memiliki fungsi sebagai media promosi bagi sebagian orang atau pelaku usaha. Sebagai contoh di media sosial terdapat foto dimana pada foto tersebut tertanam watermark dengan tulisan sebuah alamat restoran, hotel, minimarket atau tempat usaha lainnya.
+
+Selain memiliki beberapa fungsi. watermark juag memiliki manfaat atau keuntungan, diantaranya :
+
+1. Menghindari pembajakan atau duplikasi
+
+2. Orang lain akan mudah mengenali hasil karya kita
+
+3. Brand atau nama usaha akan dikenal banyak orang 
+
+
+

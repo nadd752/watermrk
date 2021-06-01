@@ -1,0 +1,68 @@
+---
+title: "Menambahkan Watermark Pada Gambar Dengan Rmarkdown"
+author: "Nadia Mu'izzatul Ilma | Dosen Pengampu : Prof. Dr. Suhartono, M.Kom | Teknik Informatika - UIN Maulana Malik Ibrahim Malang"
+date: "15 Mei 2021"
+output: html_document
+---
+
+Pada bagian ini kita akan mempelajari langkah-langkah dalam menambahkan watermark pada gambar dengan RMarkdown.
+
+# A. Dengan Library EBImage
+
+# 1. Instalisasi Package
+
+```{r}
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("EBImage")
+```
+
+# 2. Pemanggilan Package 
+
+```{r}
+library(EBImage)
+```
+
+# 3. Menampilkan Gambar Dengan Tambahan Watermark
+
+```{r}
+setwd("D:/Kuliah/Smt2/Linier A/wtr")
+library(EBImage)
+Image <- readImage('uin.png')
+display(Image)
+text(x = 800, y = 950, label = "UIN_MLG", col = "dark khaki")
+```
+
+# B. Dengan Library Library magick
+
+# 1. Instalasi Package
+
+```{r}
+library(magick)
+```
+
+# 2. Menampilkan Gambar
+
+```{r}
+img <- image_read("D:/Kuliah/Smt2/Linier A/wtr/uin.png")
+print(img)
+```
+
+# 3. Menambahkan Watermark
+
+```{r}
+magick::image_annotate(img, "UIN_MLG", location = "+800+950", degrees = -30,
+size=45, weight=700, font = "MonotypeCorsiva" , color = "#5f9ea0",
+strokecolor = "transparent",  boxcolor = NULL)
+```
+
+# Daftar Pustaka
+
+https://cran.r-project.org/web/packages/magick/vignettes/intro.html#Text_annotation
+
+
+
+
+
+
